@@ -29,6 +29,7 @@ export class MyComponent {
   render() {
     return <div>Hello, World! I'm {this.getText()} and I'm using calcite-components!
       <calcite-icon icon="banana"></calcite-icon>
+      <calcite-input autofocus></calcite-input>
     </div>;
   }
 }
