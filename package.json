@@ -48,6 +48,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@esri/calcite-components": "2.8.1"
+    "@esri/calcite-components": "^2.8.2",
+    "type-fest": "^4.18.2"
   }
 }

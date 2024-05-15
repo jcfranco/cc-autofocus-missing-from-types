@@ -8,7 +8,11 @@
  * to consume components of this package as outlined in the `README.md`.
  */
 
+import { setAssetPath } from '@esri/calcite-components/dist/components';
+import '@esri/calcite-components/dist/calcite/calcite.css';
+
+setAssetPath(window.location.href);
+
 export { format } from './utils/utils';
-export type * from './components';
-import '@esri/calcite-components';
+export * from './components';
 
