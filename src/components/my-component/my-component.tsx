@@ -27,6 +27,8 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <div>Hello, World! I'm {this.getText()} and I'm using calcite-components!
+      <calcite-icon icon="banana"></calcite-icon>
+    </div>;
   }
 }
