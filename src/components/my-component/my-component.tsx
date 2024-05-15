@@ -1,5 +1,7 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
+import "@esri/calcite-components/dist/components/calcite-input.js";
+import "@esri/calcite-components/dist/components/calcite-icon.js";
 
 @Component({
   tag: 'my-component',
